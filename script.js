@@ -1,7 +1,7 @@
 document.getElementById("copyBtn").addEventListener("click", async (e) => {
   const btn = e.currentTarget;
   try {
-    await navigator.clipboard.writeText("TSKJXH");
+    await navigator.clipboard.writeText("2J8AUY");
     const original = btn.textContent;
     btn.textContent = "Gekopieerd!";
     btn.classList.add("copied");
